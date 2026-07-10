@@ -1,6 +1,6 @@
 	
 
-name: bicycle
+name: backendcycle
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
       - main
 
 jobs:
-  karanDeploy:
+  sanchiDeploy:
     runs-on: ubuntu-latest
     steps:
       - name: git library

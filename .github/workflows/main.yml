@@ -23,4 +23,5 @@ jobs:
             cd /home/karan/Backend
             git pull origin main
             sudo npm i
-            pm2 start index.js -- name "backend"
+            pm2 delete "backend"
+            pm2 start index.js --name "backend"
